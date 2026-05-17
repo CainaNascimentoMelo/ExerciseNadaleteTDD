@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.triangle.TriangleTest" time="0.024" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.triangle.TriangleTest" time="0.026" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\MASTER\AppData\Local\Temp\surefire4435636694289418962\surefirebooter-20260517143433075_3.jar C:\Users\MASTER\AppData\Local\Temp\surefire4435636694289418962 2026-05-17T14-34-32_925-jvmRun1 surefire-20260517143433075_1tmp surefire_0-20260517143433075_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\MASTER\AppData\Local\Temp\surefire6878284155165865369\surefirebooter-20260517143825520_3.jar C:\Users\MASTER\AppData\Local\Temp\surefire6878284155165865369 2026-05-17T14-38-25_349-jvmRun1 surefire-20260517143825520_1tmp surefire_0-20260517143825520_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD\target\test-classes;C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD\target\classes;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MASTER\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\MASTER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\MASTER\AppData\Local\Temp\surefire4435636694289418962\surefirebooter-20260517143433075_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MASTER\AppData\Local\Temp\surefire6878284155165865369\surefirebooter-20260517143825520_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+37-LTS-3491"/>
@@ -59,19 +59,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="scaleneValid" classname="com.example.triangle.TriangleTest" time="0.004"/>
+  <testcase name="scaleneValid" classname="com.example.triangle.TriangleTest" time="0.002"/>
   <testcase name="equilateralValid" classname="com.example.triangle.TriangleTest" time="0.001"/>
   <testcase name="negativeValue" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="zeroValue" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="sumLessThanThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="zeroValue" classname="com.example.triangle.TriangleTest" time="0"/>
+  <testcase name="sumLessThanThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0"/>
   <testcase name="sumLessThanThirdPermutation2" classname="com.example.triangle.TriangleTest" time="0.001"/>
   <testcase name="sumLessThanThirdPermutation3" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="isoscelesPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="isoscelesPermutation1" classname="com.example.triangle.TriangleTest" time="0.002"/>
   <testcase name="isoscelesPermutation2" classname="com.example.triangle.TriangleTest" time="0.001"/>
   <testcase name="isoscelesPermutation3" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="sumEqualsThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="sumEqualsThirdPermutation2" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="sumEqualsThirdPermutation3" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="allZeros" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="isoscelesValid" classname="com.example.triangle.TriangleTest" time="0.002"/>
+  <testcase name="sumEqualsThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="sumEqualsThirdPermutation2" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="sumEqualsThirdPermutation3" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="allZeros" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="isoscelesValid" classname="com.example.triangle.TriangleTest" time="0"/>
 </testsuite>

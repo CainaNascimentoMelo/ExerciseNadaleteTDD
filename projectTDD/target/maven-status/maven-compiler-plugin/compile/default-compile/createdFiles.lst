@@ -1,6 +1,7 @@
 com\example\salary\SalaryCalculator.class
 com\example\triangle\Triangle.class
 com\example\person\PersonValidator.class
+com\example\salary\SalaryCalculator$1.class
 com\example\person\Email.class
 com\example\salary\Employee.class
 com\example\person\Person.class

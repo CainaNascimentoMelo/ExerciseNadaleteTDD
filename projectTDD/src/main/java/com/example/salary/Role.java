@@ -1,5 +1,8 @@
 package com.example.salary;
 
-public class Role {
-    
+public enum Role {
+    DESENVOLVEDOR,
+    DBA,
+    TESTADOR,
+    GERENTE
 }
