@@ -30,5 +30,3 @@ projectTDD/
  ├── pom.xml
  └── README.md
 
- ```text
-
