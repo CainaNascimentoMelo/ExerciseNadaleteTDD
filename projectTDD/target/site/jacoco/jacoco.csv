@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+tdd-project,com.example.person,Person,3,0,0,0,1,0,1,0,1,0
+tdd-project,com.example.person,PersonValidator,3,0,0,0,1,0,1,0,1,0
+tdd-project,com.example.person,Email,3,0,0,0,1,0,1,0,1,0
+tdd-project,com.example.triangle,Triangle,3,46,2,20,1,5,3,10,1,1
+tdd-project,com.example.salary,SalaryCalculator,3,0,0,0,1,0,1,0,1,0
+tdd-project,com.example.salary,Role,3,0,0,0,1,0,1,0,1,0
+tdd-project,com.example.salary,Employee,3,0,0,0,1,0,1,0,1,0

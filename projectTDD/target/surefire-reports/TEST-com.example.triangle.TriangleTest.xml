@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.triangle.TriangleTest" time="0.088" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD\target\test-classes;C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD\target\classes;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MASTER\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\MASTER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\MASTER\AppData\Local\Temp\surefire5636522152212754402\surefirebooter-20260517141825232_3.jar C:\Users\MASTER\AppData\Local\Temp\surefire5636522152212754402 2026-05-17T14-18-25_118-jvmRun1 surefire-20260517141825232_1tmp surefire_0-20260517141825232_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD\target\test-classes;C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD\target\classes;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MASTER\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\MASTER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\MASTER\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MASTER"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MASTER\AppData\Local\Temp\surefire5636522152212754402\surefirebooter-20260517141825232_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="MASTER"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MASTER\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MASTER\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Users\MASTER\Desktop\ExerciseNadaleteTDD\ExerciseNadaleteTDD\projectTDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\MASTER\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\MASTER\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\MASTER\AppData\Local\Programs\Microsoft VS Code;C:\apache-maven-3.9.11\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\MASTER\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\MASTER\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\MASTER\AppData\Local\Programs\Python\Python313\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MASTER\anaconda3;C:\Users\MASTER\anaconda3\Library\mingw-w64\bin;C:\Users\MASTER\anaconda3\Library\usr\bin;C:\Users\MASTER\anaconda3\Library\bin;C:\Users\MASTER\anaconda3\Scripts;C:\Users\MASTER\AppData\Local\Microsoft\WindowsApps;C:\Users\MASTER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MASTER\AppData\Roaming\nvm;C:\Program Files\nodejs;c:\Users\MASTER\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="scaleneValid" classname="com.example.triangle.TriangleTest" time="0.045"/>
+  <testcase name="equilateralValid" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="negativeValue" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="zeroValue" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="sumLessThanThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="sumLessThanThirdPermutation2" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="sumLessThanThirdPermutation3" classname="com.example.triangle.TriangleTest" time="0"/>
+  <testcase name="isoscelesPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="isoscelesPermutation2" classname="com.example.triangle.TriangleTest" time="0"/>
+  <testcase name="isoscelesPermutation3" classname="com.example.triangle.TriangleTest" time="0"/>
+  <testcase name="sumEqualsThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="sumEqualsThirdPermutation2" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="sumEqualsThirdPermutation3" classname="com.example.triangle.TriangleTest" time="0"/>
+  <testcase name="allZeros" classname="com.example.triangle.TriangleTest" time="0.001"/>
+  <testcase name="isoscelesValid" classname="com.example.triangle.TriangleTest" time="0"/>
+</testsuite>
