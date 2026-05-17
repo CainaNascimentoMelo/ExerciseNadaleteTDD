@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.triangle.TriangleTest" time="0.024" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.person.PersonValidatorTest" time="0.077" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,19 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="scaleneValid" classname="com.example.triangle.TriangleTest" time="0.004"/>
-  <testcase name="equilateralValid" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="negativeValue" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="zeroValue" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="sumLessThanThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="sumLessThanThirdPermutation2" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="sumLessThanThirdPermutation3" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="isoscelesPermutation1" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="isoscelesPermutation2" classname="com.example.triangle.TriangleTest" time="0.001"/>
-  <testcase name="isoscelesPermutation3" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="sumEqualsThirdPermutation1" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="sumEqualsThirdPermutation2" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="sumEqualsThirdPermutation3" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="allZeros" classname="com.example.triangle.TriangleTest" time="0"/>
-  <testcase name="isoscelesValid" classname="com.example.triangle.TriangleTest" time="0.002"/>
+  <testcase name="invalidNameSinglePart" classname="com.example.person.PersonValidatorTest" time="0.041"/>
+  <testcase name="validPerson" classname="com.example.person.PersonValidatorTest" time="0.002"/>
+  <testcase name="invalidAgeLessThanOne" classname="com.example.person.PersonValidatorTest" time="0.001"/>
+  <testcase name="personWithoutEmails" classname="com.example.person.PersonValidatorTest" time="0.001"/>
+  <testcase name="invalidNameWithNumbers" classname="com.example.person.PersonValidatorTest" time="0.001"/>
+  <testcase name="invalidEmailFormat" classname="com.example.person.PersonValidatorTest" time="0"/>
+  <testcase name="invalidAgeGreaterThanTwoHundred" classname="com.example.person.PersonValidatorTest" time="0.001"/>
 </testsuite>
